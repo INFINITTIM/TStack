@@ -54,7 +54,7 @@ TStack<T>::TStack(const TStack<T>& other_stack)
 	num_last_element = other_stack.num_last_element;
 	for (int i = 0; i <= num_last_element; i++)
 	{
-		pMem[i] = num_last_element.pMem[i];
+		pMem[i] = other_stack.pMem[i];
 	}
 }
 
